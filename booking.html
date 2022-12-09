@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonzai</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+        <section class="wrapper">
+
+            <header class="header">
+                 <ul class="menu-header">
+                    
+                    <li><img class="logo" src="bonzai-assets/bonz.ai-logo-color-landscape.png" alt=""></li>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./booking.html">Booking</a></li>
+              </ul>
+
+              <main class="background_container">
+
+<aside class="details__container">
+    <h1 class="details__container--header-text">YOUR ORDER DETAILS</h1>
+    <div class="details__container--frst-row">
+        <p class="--frst-row__text">Date</p>
+        <p class="--frst-row__text">Number of nights</p>
+        <p class="--frst-row__text">Guests</p>
+        <p class="--frst-row__text">Rooms</p>
+        <p class="--frst-row__text">Total Price</p></div>
+
+    <div class="details__container--scnd-row">
+        <p class="--scnd-row__text">Sep 28 - Sep 30 2022</p>
+        <p class="--scnd-row__text">2</p>
+        <p class="--scnd-row__text">2 Adults, 1 Child</p>
+        <p class="--scnd-row__text">Superior King Room</p>
+        <p class="--scnd-row__text">EUR 315</p>
+    </div>
+
+</aside>
+
+<article class="main-booking-container">
+
+<section class="address-container">
+
+          <div class="col s12">
+              <select id="title" class="browser-default" required title="Select title">
+                <option value="" disabled selected></option>
+              <option value="ms">miss</option>
+              <option value="mrs">mrs</option>
+              <option value="mr">mr</option>
+            </select>
+               <label for="Title">Select Title</label>
+         
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12 l6">
+            <input id="first_name" type="text" required class="validate" pattern="^\S.{1,23}\S$" title="Please enter a first Name" length="25">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s12 m12 l6">
+            <input id="last_name" type="text" required class="validate" pattern="^\S.{1,23}\S$" title="Please enter a last Name" length="25">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12 l6">
+            <input id="address" type="text" required class="validate" pattern="^\S.+" title="Please enter a valid address">
+            <label for="address">Address</label>
+          </div>
+          <div class="input-field col s12 m12 l6">
+            <input id="town" type="text" required class="validate" title="Please enter a valid City/Town" pattern="^\S.+">
+            <label for="town">City/Town</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <select id="state" class="browser-default" required title="Please select a state">
+              <option value="" disabled selected></option>
+              <option value="ar-us">Arizona</option>
+              <option value="ny-us">New York</option>
+              <option value="ca-us">California</option>
+            </select>
+             <label for="state">State</label>
+         </div>
+          <div class="input-field col s12 m12 l6">
+            <input id="zip-code" type="text" required title="Please enter a valid post code
+  (e.g., 12345)" pattern="^\d{5}(-\d{4})?$" class="validate">
+            <label for="zip-code">Zip Code</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12 l6">
+
+            <input id="email" type="email" required class="validate" title="Please enter a valid email">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field col s12 m12 l6">
+
+            <input id="phone-number" type="tel" required title="Please enter a valid phone number (e.g., (123) 456-7890)" pattern="^[0-9]?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$" class="validate">
+            <label for="phone-number">Phone Number</label>
+          </div>
+        </div>
+        <button class="submit-btn" type="submit">Submit</button>
+    </div>
+    </section>
+
+    <section class="right-section">
+        <img id="right-pic-1" src="bonzai-assets/09-day.jpg">
+        <img id="right-pic-2" src="bonzai-assets/08-day.jpg">
+    </section>
+</article>
+
+              </main>
+      
+      </header>
+      <footer class="footer-sec">
+        <div class="logo row"><img id="logo-blue" src="bonzai-assets/bonz.ai-logo-color-landscape.png">
+        </div>
+        <div class="resort row">
+            <div class="footer-header"> <h5>Resort information</h5></div>
+            <div class="link-res">
+            <a href="#" class="footer-links">About us</a>
+            <a href="#" class="footer-links">Transfers</a>
+            <a href="#" class="footer-links">Our Partners</a>
+            <a href="#" class="footer-links">Gift Vouchers</a>
+            <a href="#" class="footer-links">Sitemap</a>
+            <a href="#" class="footer-links">Contact Us</a></div>
+        </div></div>
+
+        <div class="terms row">
+            <div class="footer-header">  <h5>Terms & Conditions</h5></div>
+            <div class="link-res">
+            <a href="#" class="footer-links">Privacy Policy</a>
+            <a href="#" class="footer-links">Bookings & Cancellations</a>
+            <a href="#" class="footer-links">Website Terms</a>
+</div> </div>
+        <div class="Bonz row">
+            <div class="footer-header">    <h5>Bonz.ai's Resorts</h5></div>
+            <div class="link-res">
+                <a href="#" class="footer-links">Bonz.ai</a>
+                <a href="#" class="footer-links">Our Resorts</a>
+                <a href="#" class="footer-links">Private Homes</a>
+                <a href="#" class="footer-links">Media Centre</a>
+                <a href="#" class="footer-links">Awards</a>
+                <a href="#" class="footer-links">Newsletter Sign-Up</a>
+              </div></div>
+    </footer></div>
+</section>
+
+
+</body>
+</html>
